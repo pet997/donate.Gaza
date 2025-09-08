@@ -1,0 +1,191 @@
+@media (max-width: 600px) {
+   .box{
+width: 100%;
+   } 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.whole-div-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+}
+ .header1-div {
+    color: black;
+        line-height: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.header-paragraph-div{
+    background-color: rgba(146, 144, 144, 0.6);
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-top: 1px;
+    border-radius: 12px 12px 0 0;
+
+}
+
+.span{
+    font-weight: bold;
+}
+
+.header-logo{
+    height: 50px;
+    margin-top: 12px;
+}
+
+.logo{
+    height: 70px;
+    display: flex;
+    padding-left: 10px;
+    justify-content: first flex-start;
+    
+
+}
+
+
+.paragraph-div {
+    max-width: 1000px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 23px;
+}
+
+.donation-amount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    margin-bottom: 10px;
+    border: solid 1px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 5px;
+    border: solid white;
+    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(250, 248, 248);
+    
+}
+
+
+.button{
+     margin-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 95px;
+    padding-right: 95px;
+    border-radius: 5px;
+    border: solid white;
+    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+}
+.custom-amount{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: solid white;
+    font-size: 18px;
+    background-color: white;
+    font-weight: bold;
+    justify-content: center;
+        padding: 4px;
+    
+}
+.custom-amount input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    width: 210px;
+}
+.custom-amount span {
+    font-weight: bold;
+}
+.second-paragraph{
+    font-size: 13px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.donation{
+    margin: 0;
+}
+
+.fund-me-button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    background-color: rgb(30, 49, 61);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom:  60px;
+    border-radius: 0 0 10px 10px;
+}
+.send-funds{
+    background-color: rgb(247, 68, 4);
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    color: white;
+}
+
+.second-image{
+    width: 110px;
+}
+
+.icon-div{
+    width: 70px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+.footer-div{
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, serif;
+    line-height: 22px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(26, 13, 99, 0.842);
+    background: rgba(26, 13, 99, 0.842);
+}
+
+.span1{
+    text-decoration: underline;
+}
+
+.footer{
+     color: white;
+    font-size: 15px;
+    font-family: Georgia, serif;
+    line-height: 20px;
+    padding: 10px;
+    background-color: rgba(26, 13, 99, 0.842);
+}
